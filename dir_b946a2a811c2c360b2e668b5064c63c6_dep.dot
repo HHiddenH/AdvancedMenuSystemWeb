@@ -1,0 +1,12 @@
+digraph "D:/Projects/ProjectAMS/Plugins/AdvancedMenuSystem/Source/AdvancedMenuSystem/Public/Library"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_6994bde82a76324c2b6b8d18b9e86278 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="Public", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_6994bde82a76324c2b6b8d18b9e86278.html",tooltip=""]
+  dir_b946a2a811c2c360b2e668b5064c63c6 [label="Library", fillcolor="#edf0f7", color="grey25", style="filled,bold", URL="dir_b946a2a811c2c360b2e668b5064c63c6.html",tooltip=""];
+  }
+}

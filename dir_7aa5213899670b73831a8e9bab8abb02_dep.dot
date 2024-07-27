@@ -1,0 +1,16 @@
+digraph "D:/Projects/ProjectAMS/Plugins/AdvancedMenuSystem/Source"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  compound=true
+  subgraph clusterdir_9e74d433a1779a8992d5622c6e6d0148 {
+    graph [ bgcolor="#edf0f7", pencolor="grey50", label="AdvancedMenuSystem", fontname=Helvetica,fontsize=10 style="filled,dashed", URL="dir_9e74d433a1779a8992d5622c6e6d0148.html",tooltip=""]
+  subgraph clusterdir_7aa5213899670b73831a8e9bab8abb02 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", label="", fontname=Helvetica,fontsize=10 style="filled,bold", URL="dir_7aa5213899670b73831a8e9bab8abb02.html",tooltip=""]
+    dir_7aa5213899670b73831a8e9bab8abb02 [shape=plaintext, label="Source"];
+  dir_00f194a95390c575d045725232f34439 [label="AdvancedMenuSystem", fillcolor="#a2b4d6", color="grey25", style="filled", URL="dir_00f194a95390c575d045725232f34439.html",tooltip=""];
+  }
+  }
+}

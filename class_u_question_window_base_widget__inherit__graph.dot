@@ -1,0 +1,14 @@
+digraph "UQuestionWindowBaseWidget"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="UQuestionWindowBaseWidget",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Message widget."];
+  Node2 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="UCommonActivatableWidget",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node1 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="UQuitGameWindowWidget",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_u_quit_game_window_widget.html",tooltip="Quit game message widget."];
+  Node1 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="USaveSettingsWindowBaseWidget",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_u_save_settings_window_base_widget.html",tooltip="Save settings message widget."];
+}

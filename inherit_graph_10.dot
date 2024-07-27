@@ -1,0 +1,33 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  rankdir="LR";
+  Node0 [label="UCommonActivatableWidget",height=0.2,width=0.4,color="grey60", fillcolor="#E0E0E0", style="filled",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node1 [label="UAudioSettingsWidget",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_u_audio_settings_widget.html",tooltip="Audio setting param widget."];
+  Node0 -> Node2 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="UControlsSettingsWidget",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_u_controls_settings_widget.html",tooltip="Input setting param widget."];
+  Node0 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node3 [label="UCreditsWidget",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_u_credits_widget.html",tooltip="Credits widget."];
+  Node0 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="UGraphicsSettingsWidget",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_u_graphics_settings_widget.html",tooltip="Game graphics settings widget."];
+  Node0 -> Node5 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="UIntroWidget",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_u_intro_widget.html",tooltip="Intro screen widget."];
+  Node0 -> Node6 [dir="back",color="steelblue1",style="solid"];
+  Node6 [label="ULoadingScreenWidget",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_u_loading_screen_widget.html",tooltip="Loading screen widget."];
+  Node0 -> Node7 [dir="back",color="steelblue1",style="solid"];
+  Node7 [label="UMenuBaseWidget",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_u_menu_base_widget.html",tooltip="Menu widget."];
+  Node0 -> Node8 [dir="back",color="steelblue1",style="solid"];
+  Node8 [label="UMenuSettingsWidget",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_u_menu_settings_widget.html",tooltip="Menu settings widget."];
+  Node0 -> Node9 [dir="back",color="steelblue1",style="solid"];
+  Node9 [label="UQuestionWindowBaseWidget",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_u_question_window_base_widget.html",tooltip="Message widget."];
+  Node9 -> Node10 [dir="back",color="steelblue1",style="solid"];
+  Node10 [label="UQuitGameWindowWidget",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_u_quit_game_window_widget.html",tooltip="Quit game message widget."];
+  Node9 -> Node11 [dir="back",color="steelblue1",style="solid"];
+  Node11 [label="USaveSettingsWindowBaseWidget",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_u_save_settings_window_base_widget.html",tooltip="Save settings message widget."];
+  Node0 -> Node12 [dir="back",color="steelblue1",style="solid"];
+  Node12 [label="UVideoSettingsWidget",height=0.2,width=0.4,color="grey40", fillcolor="white", style="filled",URL="$class_u_video_settings_widget.html",tooltip="Game video settings widget."];
+}

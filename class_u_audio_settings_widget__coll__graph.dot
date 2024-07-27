@@ -1,0 +1,16 @@
+digraph "UAudioSettingsWidget"
+{
+ // LATEX_PDF_SIZE
+  bgcolor="transparent";
+  edge [fontname=Helvetica,fontsize=10,labelfontname=Helvetica,labelfontsize=10];
+  node [fontname=Helvetica,fontsize=10,shape=box,height=0.2,width=0.4];
+  Node1 [label="UAudioSettingsWidget",height=0.2,width=0.4,color="gray40", fillcolor="grey60", style="filled", fontcolor="black",tooltip="Audio setting param widget."];
+  Node2 -> Node1 [dir="back",color="steelblue1",style="solid"];
+  Node2 [label="UCommonActivatableWidget",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node3 -> Node1 [dir="back",color="darkorchid3",style="dashed",label=" MasterSlider\nMusicSlider\nSFXSlider\nVoiceSlider" ];
+  Node3 [label="USliderWidget",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_u_slider_widget.html",tooltip="Slider param setting widget."];
+  Node4 -> Node3 [dir="back",color="steelblue1",style="solid"];
+  Node4 [label="USettingsParamBase",height=0.2,width=0.4,color="gray40", fillcolor="white", style="filled",URL="$class_u_settings_param_base.html",tooltip="Settings base for params inside a game settings."];
+  Node5 -> Node4 [dir="back",color="steelblue1",style="solid"];
+  Node5 [label="UUserWidget",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+}
